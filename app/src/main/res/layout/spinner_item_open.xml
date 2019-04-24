@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rltv"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/imgPic"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:src="@drawable/img_mohammad"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_toRightOf="@+id/imgPic"
+        style="?android:attr/spinnerItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="right|center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingRight="18dp"
+        android:paddingTop="8dp"
+        android:text="Mohammad"
+        android:textAlignment="inherit"
+        android:textColor="#404040"
+        android:textSize="15sp"/>
+</RelativeLayout>
